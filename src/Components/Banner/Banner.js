@@ -2,8 +2,12 @@ import React, { useState } from 'react'
 import './Banner.css'
 import { Button } from '@mui/material'
 import Search from '../../Components/Search/Search'
+import { useNavigate  } from "react-router-dom"
+// import { unstable_HistoryRouter } from 'react-router-dom'
 
 function Banner() {
+    // const history = unstable_HistoryRouter();
+    const navigate = useNavigate();
 const [showSearch, setShowSearch] = useState(false);
 
   return (
@@ -23,7 +27,9 @@ const [showSearch, setShowSearch] = useState(false);
             <h5>
                 Plan a different kind of getaway to uncover the hidden gems near you.
             </h5>
-            <Button
+            <Button onClick={()=>{
+                navigate("/search")
+            }}
             variant='outlined'>Explore</Button>
         </div>
     </div>
