@@ -21,7 +21,7 @@
     display: flex;
     flex: 1;
     align-items: center;
-    max-width: fit-content;
+    max-width:fit-content;
     padding: 10px;
     height: 30px;
     border: 1px solid lightgray;
@@ -43,3 +43,22 @@
     width: 15vw;
     margin-right: 80px;
 }
+
+@media (max-width: 800px) {
+   
+ .header_center{
+    height: 20px;
+ 
+ }
+
+.header_icon{
+    margin-left: 0;
+}
+
+.header{
+    height: 90px;
+}
+
+    
+
+  }

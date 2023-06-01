@@ -10,11 +10,13 @@
     transform: scale(1.07);
 }
 .card > img {
-    object-fit: fill;
+    object-fit: contain;
     min-width: 300px;
     min-height: 200px;
     width: 100%;
+    
 }
+
 
 .card_info{
     margin-top: -9px;
@@ -35,3 +37,12 @@
     margin-bottom: 8px;
 }
 
+
+@media (max-width: 800px) {
+   
+
+
+
+    
+
+  }

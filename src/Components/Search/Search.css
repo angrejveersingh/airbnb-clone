@@ -3,6 +3,7 @@
     top:35px;
     left: 25%;
     width:100vw;
+    z-index: 99;
 }
 
 .search > h2 {
@@ -14,7 +15,7 @@
     background-color: white;
     position: absolute;
     left: 0;
-    top: 348px;
+    top: 335px;
 }
 
 .search > input {
@@ -23,7 +24,7 @@
     position: absolute;
     left: 0;
     height: 30px;
-    top: 390px;
+    top: 370px;
     border: none;
 }
 
@@ -34,7 +35,7 @@
 .search > button{
     position: absolute;
     left: 0;
-    top: 448px;
+    top: 438px;
     text-transform: inherit !important;
     background-color: #ff7779;
     color: white;
@@ -45,3 +46,28 @@
     background-color: white;
     color: #ff7779;
 }
+
+@media (max-width: 800px) {
+   
+.search{
+    left: 0;
+}
+
+.rdrDateRangePickerWrapper{
+    width: 100px;
+}
+
+.search > button{
+    width: 485px;
+}
+.search>h2{
+    top: 345px;
+}
+
+.search > input{
+    top: 385px;
+    width: 450px;
+}
+    
+
+  }

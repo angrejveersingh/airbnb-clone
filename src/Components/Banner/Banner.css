@@ -3,6 +3,7 @@
     height: 50vh;
     position: relative;
     
+    
 }
 
 .banner_info{
@@ -43,3 +44,43 @@
     text-transform: inherit !important;
     color: #ff7779 !important;
 }
+
+
+@media (max-width: 800px) {
+   
+    .banner{
+        background: url("https://static1.mansionglobal.com/production/media/article-images/ae4995fa7b11767a70af58edb374c380/large_Toll-Brothers-19-Marbella-Cassis-SC_Rear-Elevation_CC.jpg") center center;
+        height: 45vh;
+        background-size: contain;
+        position: relative;
+        
+    }
+
+    
+
+
+
+    .banner_info{
+        background-color: black;
+        color: white;
+        padding-top: 20vh;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 40px;
+        width: 160px;
+        height: 20vh;
+    }
+
+    .banner_info > h5 {
+        font-size: small;
+        
+    }
+
+    .banner_info > h1 {
+        font-size: 20px;
+    }
+
+
+    
+
+  }

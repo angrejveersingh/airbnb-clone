@@ -73,3 +73,23 @@
     bottom: 20px;
     right: 30px;
 }
+
+@media (max-width: 800px) {
+   
+    .searchResult > img {
+        height: 180px;
+        width: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .searchResult_heart{
+        right: 0px;
+    }
+
+    .searchResult_price {
+        font-size: small;
+    }
+    
+
+  }
